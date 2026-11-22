@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.spec
+.pytest_cache/
+
+# Rendered output and personal assets
+*.mp4
+*.mov
+*-alpha.zip
+*.png
+*.png.tmp
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.tif
+*.tiff
+
+# Bundled fonts are not redistributed
+fonts/*
+!fonts/.gitkeep
