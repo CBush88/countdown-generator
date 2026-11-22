@@ -125,7 +125,7 @@ Run `--help` for the full list.
 
 Numeric-only display fonts often ship proportional figures — the `1` is narrower than the `0` — which makes a timer jitter sideways as digits change. Countdown Generator lays digits out in fixed-width cells by default so the block stays steady. Pass `--proportional` to use the font's natural widths instead.
 
-**Italic is opt-in.** The bundled fonts are upright, so the slant is synthesised by shearing the glyphs — slanted rather than redrawn curves. Tick *Italicize digits* in the GUI, or pass `--italic` (or `--slant 0.22`, which implies it). It reads correctly at a glance, but it is not a true italic. A font family that ships a real oblique (Inter, Roboto) will look better if you want genuine italic.
+**Italic is opt-in.** The slant is synthesised by shearing upright glyphs — slanted rather than redrawn curves. Tick *Italicize digits* in the GUI, or pass `--italic` (or `--slant 0.22`, which implies it). It reads correctly at a glance, but it is not a true italic. A font family that ships a real oblique (Inter, Roboto) will look better if you want genuine italic.
 
 ---
 
